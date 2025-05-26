@@ -1,0 +1,49 @@
+# Core Dependencies
+langchain==0.0.200
+python-dotenv==1.0.0
+
+# Language Models & Embeddings
+transformers==4.30.2
+sentence-transformers==2.2.2
+huggingface-hub==0.16.4
+torch==2.2.0  # CPU-only version
+
+# Vector Store (FAISS for Python 3.11, 64-bit)
+--find-links https://dl.fbaipublicfiles.com/faiss/wheels/faiss_cpu-1.7.4-cp311-cp311-win_amd64.whl
+faiss-cpu==1.7.4
+
+# File Processing
+python-magic-bin==0.4.14  # Windows-specific
+pandas>=2.0.3
+openpyxl==3.1.2
+python-docx==0.8.11
+PyPDF2==3.0.1
+
+# Date Parsing
+dateparser==1.1.8
+
+# API Integrations
+google-auth==2.22.0
+google-auth-oauthlib==1.0.0
+google-auth-httplib2==0.1.0
+google-api-python-client==2.97.0
+
+# Web Tools
+requests==2.31.0
+beautifulsoup4==4.12.2
+duckduckgo-search==3.8.3
+
+# Code Processing & Formatting
+black==23.3.0
+
+# UI & Interface
+streamlit==1.24.0
+rich==13.4.2
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Development Tools
+jupyter==1.0.0
+ipython==8.14.0
