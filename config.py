@@ -9,6 +9,9 @@ HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 GOOGLE_CALENDAR_CREDENTIALS = os.getenv("GOOGLE_CALENDAR_CREDENTIALS")
 GMAIL_CREDENTIALS = os.getenv("GMAIL_CREDENTIALS")
 
+# Add Google API key here
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
 # Model Configurations
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # Free HuggingFace model
 TEXT_GENERATION_MODEL = "facebook/opt-350m"  # Free HuggingFace model

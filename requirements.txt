@@ -1,5 +1,5 @@
 # Core Dependencies
-langchain==0.0.200
+langchain>=0.1.15
 python-dotenv==1.0.0
 
 # Language Models & Embeddings
@@ -8,12 +8,16 @@ sentence-transformers==2.2.2
 huggingface-hub==0.16.4
 torch==2.2.0  # CPU-only version
 
+# Gemini / Google LLMs
+langchain-google-genai==0.0.6
+
 # Vector Store (FAISS for Python 3.11, 64-bit)
+# Precompiled FAISS wheel
 --find-links https://dl.fbaipublicfiles.com/faiss/wheels/faiss_cpu-1.7.4-cp311-cp311-win_amd64.whl
 faiss-cpu==1.7.4
 
 # File Processing
-python-magic-bin==0.4.14  # Windows-specific
+python-magic-bin==0.4.14
 pandas>=2.0.3
 openpyxl==3.1.2
 python-docx==0.8.11

@@ -1,3 +1,8 @@
+from langchain.prompts import PromptTemplate
+
+note_taker_prompt = PromptTemplate(
+    input_variables=["input", "context", "current_date"],
+    template="""
 INSTRUCTION:
 You are a note-taking assistant. Your task is to help users create, organize, and manage their notes.
 
@@ -9,10 +14,10 @@ Tags: <Relevant tags prefixed with #>
 Content: <A clear and concise summary of the note>
 
 COMMANDS:
-- Take a note: "take note about {topic}"
+- Take a note: "take note about {{topic}}"
 - List notes: "show my notes"
-- Search notes: "find notes about {topic}"
-- Delete note: "delete note {title}"
+- Search notes: "find notes about {{topic}}"
+- Delete note: "delete note {{title}}"
 
 EXAMPLE INPUT: "take note about my meeting with the development team"
 EXAMPLE OUTPUT:
@@ -31,3 +36,5 @@ Context:
 {context}
 
 OUTPUT:
+"""
+)

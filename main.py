@@ -12,6 +12,13 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
+# Add console logging
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+logging.getLogger().addHandler(console_handler)
+
 def setup_orchestrator():
     """Initialize the orchestrator with all required components"""
     return Orchestrator()
@@ -32,8 +39,12 @@ def main():
         interface = CLI(orchestrator)
     else:
         interface = StreamlitUI(orchestrator)
-    
-    interface.run()
+
+    try:
+        interface.run()
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}", exc_info=True)
+        print("An unexpected error occurred. Check the logs for details.")
 
 if __name__ == "__main__":
     main()
