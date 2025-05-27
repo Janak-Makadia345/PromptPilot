@@ -1,31 +1,16 @@
-class AgentRouter:
-    def __init__(self):
-        self.agents = {
-            'note_taker': 'agents.note_taker_agent.NoteTakerAgent',
-            'calendar': 'agents.calendar_agent.CalendarAgent',
-            'email': 'agents.email_agent.EmailAgent',
-            'web_search': 'agents.web_search_agent.WebSearchAgent',
-            'code': 'agents.code_agent.CodeAgent',
-            'file_analyzer': 'agents.file_analyzer_agent.FileAnalyzerAgent'
-        }
+# interface/cli.py
 
-    def route(self, prompt):
-        # Logic to classify the prompt and route to the appropriate agent
-        agent_type = self.classify_prompt(prompt)
-        if agent_type in self.agents:
-            agent_class = self.agents[agent_type]
-            return self.initialize_agent(agent_class)
-        else:
-            raise ValueError("No suitable agent found for the prompt.")
+class CLI:
+    def __init__(self, orchestrator):
+        self.orchestrator = orchestrator
 
-    def classify_prompt(self, prompt):
-        # Placeholder for prompt classification logic
-        # This should return the type of agent based on the prompt
-        return 'note_taker'  # Example return value
+    def run(self):
+        print("CLI interface started.")
+        while True:
+            user_input = input("You: ")
+            if user_input.lower() in ('exit', 'quit'):
+                print("Exiting CLI.")
+                break
 
-    def initialize_agent(self, agent_class):
-        # Logic to initialize the agent class
-        module_name, class_name = agent_class.rsplit('.', 1)
-        module = __import__(module_name, fromlist=[class_name])
-        agent = getattr(module, class_name)()
-        return agent
+            response = self.orchestrator.process_prompt(user_input)
+            print(f"Assistant ({response.get('agent', 'unknown')}): {response.get('response', 'No response')}")

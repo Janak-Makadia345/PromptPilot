@@ -14,7 +14,7 @@ Tags: <Relevant tags prefixed with #>
 Content: <A clear and concise summary of the note>
 
 COMMANDS:
-- Take a note: "take note about {{topic}}"
+- Take a note: phrases like "take note about {{topic}}", "take a note that {{topic}}", or "note that {{topic}}"
 - List notes: "show my notes"
 - Search notes: "find notes about {{topic}}"
 - Delete note: "delete note {{title}}"

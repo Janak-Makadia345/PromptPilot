@@ -6,8 +6,14 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 from core.agent_router import AgentRouter
-from memory.faiss_store import setup_vectorstore  # ✅ Use your vectorstore setup
-from dotenv import load_dotenv  # ✅ To load Google API key from .env
+from memory.faiss_store import setup_vectorstore
+from dotenv import load_dotenv
+
+# Import all agents and prompt templates
+from agents.note_taker_agent import NoteTakerAgent
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain.memory import VectorStoreRetrieverMemory
+from core.prompt_templates.note_taker_template import note_taker_prompt
 
 # Load environment variables from .env file
 load_dotenv()
@@ -17,36 +23,55 @@ class Orchestrator:
         self.logger = logging.getLogger(__name__)
         self.router = AgentRouter()
 
-        # ✅ Initialize embeddings and vectorstore using your utility
+        # ✅ Initialize embeddings and vectorstore
         self.embeddings, self.vectorstore = setup_vectorstore()
 
+        # ✅ Build LLM and memory (shared across agents)
+        llm = ChatGoogleGenerativeAI(
+            model="gemini-2.0-flash",
+            temperature=0.5,
+            convert_system_message_to_human=True
+        )
+        memory = VectorStoreRetrieverMemory(retriever=self.vectorstore.as_retriever())
+
+        # ✅ Register all available agents here
+        self._register_agents(llm, memory)
+
         self.conversation_history = []
+
+    def _register_agents(self, llm, memory):
+        """Register all agents here for auto-routing"""
+        note_taker = NoteTakerAgent(
+            llm=llm,
+            memory=memory,
+            embeddings=self.embeddings,
+            vectorstore=self.vectorstore,
+            prompt_template=note_taker_prompt
+        )
+        self.router.register_agent("note_taker", note_taker)
+
+        # Example: register future agents here
+        # from agents.calendar_agent import CalendarAgent
+        # self.router.register_agent("calendar", CalendarAgent(...))
 
     def process_prompt(self, prompt: str) -> Dict[str, Any]:
         """Process user prompt and return response"""
         start_time = time.time()
-
         try:
-            # Save prompt to history
             self.conversation_history.append({
                 'role': 'user',
                 'content': prompt,
                 'timestamp': datetime.now().isoformat()
             })
 
-            # Get relevant context from vectorstore
             relevant_history = self.vectorstore.similarity_search(prompt, k=3)
-
-            # Route to appropriate agent
             agent = self.router.route(prompt)
 
-            # Process with the selected agent
             response = agent.process(prompt, {
                 'history': relevant_history,
                 'timestamp': datetime.now().isoformat()
             })
 
-            # Save response to history
             self.conversation_history.append({
                 'role': 'assistant',
                 'content': response,
@@ -54,7 +79,6 @@ class Orchestrator:
                 'agent': agent.__class__.__name__
             })
 
-            # Update vectorstore with new conversation turn
             self.vectorstore.add_texts(
                 texts=[f"User: {prompt}\nAssistant: {response}"],
                 metadatas=[{
@@ -77,13 +101,9 @@ class Orchestrator:
             }
 
     def get_conversation_history(self, limit: Optional[int] = None) -> list:
-        """Get recent conversation history"""
-        if limit:
-            return self.conversation_history[-limit:]
-        return self.conversation_history
+        return self.conversation_history[-limit:] if limit else self.conversation_history
 
     def save_history(self, filepath: str) -> None:
-        """Save conversation history to file"""
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(self.conversation_history, f, indent=2)
@@ -92,12 +112,10 @@ class Orchestrator:
             raise
 
     def load_history(self, filepath: str) -> None:
-        """Load conversation history from file"""
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 self.conversation_history = json.load(f)
 
-            # Rebuild vectorstore with loaded conversation turns
             conversations = [
                 f"User: {turn['content']}\nAssistant: {next_turn['content']}"
                 for turn, next_turn in zip(

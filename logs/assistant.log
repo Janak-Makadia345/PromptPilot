@@ -1,0 +1,88 @@
+2025-05-27 11:52:59,768 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 11:52:59,768 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 11:52:59,769 - faiss.loader - INFO - Loading faiss.
+2025-05-27 11:52:59,789 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 11:57:04,040 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 11:59:08,525 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 11:59:33,552 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 11:59:33,552 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 11:59:33,553 - faiss.loader - INFO - Loading faiss.
+2025-05-27 11:59:33,576 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 11:59:46,463 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 12:00:23,114 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 12:01:33,138 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 12:01:35,978 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'page_content'
+2025-05-27 12:01:48,491 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 12:01:48,492 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 12:01:48,492 - faiss.loader - INFO - Loading faiss.
+2025-05-27 12:01:48,508 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:09:56,780 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:09:56,781 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:09:56,781 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:09:56,799 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:12:23,720 - core.orchestrator - ERROR - Processing failed: Error embedding content: content must not be empty
+2025-05-27 13:16:12,034 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:16:12,034 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:16:12,035 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:16:12,057 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:22:34,661 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:22:34,661 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:22:34,661 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:22:34,674 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:24:29,652 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:24:29,653 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:24:29,653 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:24:29,672 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:26:47,905 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:26:47,906 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:26:47,906 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:26:47,919 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:28:16,397 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:28:16,397 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:28:16,397 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:28:16,417 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:28:59,941 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:28:59,941 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:28:59,942 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:28:59,958 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:29:09,544 - core.orchestrator - ERROR - Processing failed: Error embedding content: content must not be empty
+2025-05-27 13:33:35,819 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:33:35,820 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:33:35,820 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:33:35,835 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:35:39,202 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:35:39,202 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:35:39,202 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:35:39,216 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:38:49,205 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:38:49,206 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:38:49,206 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:38:49,227 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:40:10,434 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:40:10,435 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:40:10,435 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:40:10,450 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:41:02,183 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:41:02,183 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:41:02,183 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:41:02,202 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 13:44:25,084 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 13:44:25,084 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 13:44:25,084 - faiss.loader - INFO - Loading faiss.
+2025-05-27 13:44:25,103 - faiss.loader - INFO - Successfully loaded faiss.
