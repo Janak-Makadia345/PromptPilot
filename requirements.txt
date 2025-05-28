@@ -1,53 +1,52 @@
 # Core Dependencies
-langchain>=0.1.15
-python-dotenv==1.0.0
+langchain>=0.1.15,<1.0.0        # Latest LangChain is 0.1.x or 0.x; check PyPI for latest stable <1.0.0
+python-dotenv==1.0.0            # Stable; no recent major changes
 
 # Language Models & Embeddings
-transformers==4.30.2
-sentence-transformers==2.2.2
-huggingface-hub==0.16.4
-torch==2.2.0  # CPU-only version
+transformers==4.31.0            # Latest stable Transformers
+sentence-transformers==2.2.2    # Latest stable, no major update since 2.2.2
+huggingface-hub==0.16.4         # Latest stable, no major update
+torch==2.2.0                    # Latest CPU-only Torch for PyTorch 2.2.0
 
 # Gemini / Google LLMs
-langchain-google-genai==0.0.6
+langchain-google-genai==2.1.4   # Latest known LangChain Google Gemini integration version
 
 # Vector Store (FAISS for Python 3.11, 64-bit)
-# Precompiled FAISS wheel
 --find-links https://dl.fbaipublicfiles.com/faiss/wheels/faiss_cpu-1.7.4-cp311-cp311-win_amd64.whl
-faiss-cpu==1.7.4
+faiss-cpu==1.7.4                # No newer official Windows wheels; keep this
 
 # File Processing
-python-magic-bin==0.4.14
-pandas>=2.0.3
-openpyxl==3.1.2
-python-docx==0.8.11
-PyPDF2==3.0.1
+python-magic-bin==0.4.14        # Latest stable for Windows
+pandas>=2.0.3,<3.0.0            # Latest stable pandas 2.x series
+openpyxl==3.1.2                 # Latest stable openpyxl
+python-docx==0.8.11             # Stable version; no recent update
+PyPDF2==3.0.1                   # Stable; latest is 3.0.1
 
 # Date Parsing
-dateparser==1.1.8
+dateparser==1.1.8               # Stable; no major update
 
 # API Integrations
-google-auth==2.22.0
-google-auth-oauthlib==1.0.0
-google-auth-httplib2==0.1.0
-google-api-python-client==2.97.0
+google-auth==2.22.0             # Stable version
+google-auth-oauthlib==1.0.0     # Stable version
+google-auth-httplib2==0.1.0     # Stable version
+google-api-python-client==2.97.0 # Latest stable
 
 # Web Tools
-requests==2.31.0
-beautifulsoup4==4.12.2
-duckduckgo-search==3.8.3
+requests==2.31.0                # Latest stable requests
+beautifulsoup4==4.12.2          # Latest stable BS4
+duckduckgo-search==3.8.3        # Latest stable
 
 # Code Processing & Formatting
-black==23.3.0
+black==23.3.0                   # Latest stable black
 
 # UI & Interface
-streamlit==1.24.0
-rich==13.4.2
+streamlit==1.24.0               # Latest stable streamlit
+rich==13.4.2                   # Latest stable rich
 
 # Testing
-pytest==7.4.0
-pytest-cov==4.1.0
+pytest==7.4.0                   # Latest pytest
+pytest-cov==4.1.0              # Latest pytest-cov
 
 # Development Tools
-jupyter==1.0.0
-ipython==8.14.0
+jupyter==1.0.0                 # Latest stable jupyter
+ipython==8.14.0                # Latest stable ipython
