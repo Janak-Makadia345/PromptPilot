@@ -86,3 +86,228 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-27 13:44:25,084 - faiss.loader - INFO - Loading faiss.
 2025-05-27 13:44:25,103 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 14:53:42,067 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 14:53:42,067 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 14:53:42,067 - faiss.loader - INFO - Loading faiss.
+2025-05-27 14:53:42,380 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 14:58:08,907 - core.orchestrator - ERROR - Processing failed: 'NoneType' object has no attribute 'process'
+2025-05-27 14:58:16,654 - core.orchestrator - ERROR - Processing failed: 'NoneType' object has no attribute 'process'
+2025-05-27 20:59:31,234 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 20:59:31,235 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 20:59:31,235 - faiss.loader - INFO - Loading faiss.
+2025-05-27 20:59:31,267 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 21:00:02,549 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-27 21:00:06,858 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-27 21:00:24,575 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-27 21:01:36,721 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:07:48,703 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 21:07:48,704 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 21:07:48,704 - faiss.loader - INFO - Loading faiss.
+2025-05-27 21:07:48,719 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 21:07:58,905 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:11:43,967 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 21:11:43,968 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 21:11:43,968 - faiss.loader - INFO - Loading faiss.
+2025-05-27 21:11:44,002 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 21:11:47,566 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:15:57,535 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:16:50,666 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-27 21:17:06,369 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:22:08,031 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 21:22:08,032 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 21:22:08,032 - faiss.loader - INFO - Loading faiss.
+2025-05-27 21:22:08,061 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 21:22:11,167 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:22:27,247 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-27 21:23:27,734 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-27 21:23:27,734 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-27 21:23:27,734 - faiss.loader - INFO - Loading faiss.
+2025-05-27 21:23:27,753 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-27 21:23:37,297 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:12:47,024 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:18:41,984 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:18:41,984 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:18:41,985 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:18:42,015 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:18:53,501 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:19:48,673 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:27:41,182 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:27:41,182 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:27:41,182 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:27:41,216 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:27:58,192 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:30:56,264 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:30:56,264 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:30:56,265 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:30:56,281 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:31:00,859 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:34:25,291 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:34:25,292 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:34:25,292 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:34:25,310 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:34:33,417 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:37:43,971 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:37:43,972 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:37:43,972 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:37:43,992 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:37:46,725 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:37:51,492 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:38:32,952 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:38:32,952 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:38:32,953 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:38:32,968 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:38:35,194 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:46:44,995 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:46:44,996 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:46:44,996 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:46:45,017 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:47:02,108 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 09:56:52,982 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 09:56:52,982 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 09:56:52,982 - faiss.loader - INFO - Loading faiss.
+2025-05-28 09:56:53,011 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 09:56:59,154 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:00:00,311 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:00:00,312 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:00:00,312 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:00:00,345 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:01:14,896 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:01:14,896 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:01:14,896 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:01:14,911 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:01:19,813 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:06:31,237 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:06:31,237 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:06:31,237 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:06:31,254 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:07:31,052 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:07:31,053 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:07:31,053 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:07:31,068 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:08:55,226 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-28 10:09:59,446 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:13:48,264 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:13:48,264 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:13:48,265 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:13:48,284 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:13:48,291 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:13:52,277 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:19:10,117 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:19:10,117 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:19:10,117 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:19:10,134 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:19:10,141 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:19:14,711 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:20:46,210 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:20:46,211 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:20:46,211 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:20:46,230 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:20:46,237 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:20:48,196 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:22:44,112 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:22:44,112 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:22:44,113 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:22:44,127 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:22:44,140 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:22:46,308 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:23:05,727 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:24:21,452 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:24:21,453 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:24:21,453 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:24:21,472 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:24:21,478 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:24:23,680 - core.orchestrator - ERROR - Processing failed: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-05-28 10:38:44,013 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:38:44,014 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:38:44,014 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:38:44,036 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:38:44,043 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:42:38,622 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-28 10:43:33,802 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-28 10:45:17,841 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:45:17,842 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:45:17,842 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:45:17,858 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:45:17,865 - langchain_google_genai.chat_models - WARNING - Unexpected argument 'proxies' provided to ChatGoogleGenerativeAI.
+2025-05-28 10:45:53,455 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:45:53,455 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:45:53,455 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:45:53,489 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:49:01,519 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:49:01,520 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:49:01,520 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:49:01,536 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:51:19,912 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:51:19,914 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:51:19,914 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:51:19,930 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:51:57,751 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:51:57,751 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:51:57,751 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:51:57,771 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:55:04,733 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:55:04,734 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:55:04,734 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:55:04,749 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:56:49,224 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:56:49,225 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:56:49,225 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:56:49,239 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:57:54,444 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:57:54,445 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:57:54,445 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:57:54,462 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:58:06,485 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'get'
+2025-05-28 10:59:01,926 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:59:01,927 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:59:01,927 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:59:01,959 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:59:31,975 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 10:59:31,976 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 10:59:31,976 - faiss.loader - INFO - Loading faiss.
+2025-05-28 10:59:32,003 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 10:59:38,968 - core.orchestrator - ERROR - Processing failed: 'str' object has no attribute 'get'
+2025-05-28 11:01:17,984 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 11:01:17,985 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 11:01:17,985 - faiss.loader - INFO - Loading faiss.
+2025-05-28 11:01:18,011 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 11:02:33,946 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 11:02:33,946 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 11:02:33,947 - faiss.loader - INFO - Loading faiss.
+2025-05-28 11:02:33,966 - faiss.loader - INFO - Successfully loaded faiss.

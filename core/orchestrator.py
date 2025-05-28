@@ -1,21 +1,22 @@
 import logging
 import json
 import time
-import os
 from datetime import datetime
 from typing import Dict, Any, Optional
 
+from dotenv import load_dotenv
 from core.agent_router import AgentRouter
 from memory.faiss_store import setup_vectorstore
-from dotenv import load_dotenv
 
 # Import all agents and prompt templates
 from agents.note_taker_agent import NoteTakerAgent
+from agents.web_search_agent import WebSearchAgent
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.memory import VectorStoreRetrieverMemory
 from core.prompt_templates.note_taker_template import note_taker_prompt
+from core.prompt_templates.web_search_template import web_search_prompt
 
-# Load environment variables from .env file
 load_dotenv()
 
 class Orchestrator:
@@ -23,24 +24,30 @@ class Orchestrator:
         self.logger = logging.getLogger(__name__)
         self.router = AgentRouter()
 
-        # ✅ Initialize embeddings and vectorstore
+        # Initialize embeddings and vectorstore
         self.embeddings, self.vectorstore = setup_vectorstore()
 
-        # ✅ Build LLM and memory (shared across agents)
-        llm = ChatGoogleGenerativeAI(
-            model="gemini-2.0-flash",
-            temperature=0.5,
-            convert_system_message_to_human=True
-        )
+        # Initialize LLM with safe configuration
+        try:
+            llm = ChatGoogleGenerativeAI(
+                model="gemini-2.0-flash",
+                temperature=0.5,
+                convert_system_message_to_human=True,
+            )
+        except TypeError as e:
+            import traceback
+            traceback.print_exc()
+            raise
+
         memory = VectorStoreRetrieverMemory(retriever=self.vectorstore.as_retriever())
 
-        # ✅ Register all available agents here
+        # Register all available agents
         self._register_agents(llm, memory)
 
         self.conversation_history = []
 
     def _register_agents(self, llm, memory):
-        """Register all agents here for auto-routing"""
+        """Register all agents for routing."""
         note_taker = NoteTakerAgent(
             llm=llm,
             memory=memory,
@@ -50,12 +57,15 @@ class Orchestrator:
         )
         self.router.register_agent("note_taker", note_taker)
 
-        # Example: register future agents here
-        # from agents.calendar_agent import CalendarAgent
-        # self.router.register_agent("calendar", CalendarAgent(...))
+        web_search_agent = WebSearchAgent(
+            llm=llm,
+            memory=memory,
+            prompt_template=web_search_prompt
+        )
+        self.router.register_agent("web_search", web_search_agent)
 
     def process_prompt(self, prompt: str) -> Dict[str, Any]:
-        """Process user prompt and return response"""
+        """Process user prompt and return response."""
         start_time = time.time()
         try:
             self.conversation_history.append({
@@ -66,6 +76,9 @@ class Orchestrator:
 
             relevant_history = self.vectorstore.similarity_search(prompt, k=3)
             agent = self.router.route(prompt)
+
+            if agent is None:
+                raise ValueError("No suitable agent found for this prompt.")
 
             response = agent.process(prompt, {
                 'history': relevant_history,
@@ -101,9 +114,11 @@ class Orchestrator:
             }
 
     def get_conversation_history(self, limit: Optional[int] = None) -> list:
+        """Get past conversation history."""
         return self.conversation_history[-limit:] if limit else self.conversation_history
 
     def save_history(self, filepath: str) -> None:
+        """Save conversation history to a file."""
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(self.conversation_history, f, indent=2)
@@ -112,6 +127,7 @@ class Orchestrator:
             raise
 
     def load_history(self, filepath: str) -> None:
+        """Load conversation history from a file and restore vectorstore."""
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 self.conversation_history = json.load(f)

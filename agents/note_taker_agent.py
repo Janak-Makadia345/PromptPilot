@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from typing import Dict, Any, Optional
 
-from langchain import LLMChain
+from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from core.base_agent import BaseAgent
 from core.prompt_templates.note_taker_template import note_taker_prompt

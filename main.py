@@ -1,3 +1,9 @@
+import os
+
+# Clear proxy environment variables that might cause Client.__init__ error
+for var in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy"]:
+    os.environ.pop(var, None)
+    
 import argparse
 import logging
 from interface.cli import CLI

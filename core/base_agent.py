@@ -7,7 +7,7 @@ import logging
 from langchain.llms.base import LLM
 from langchain.memory import VectorStoreRetrieverMemory
 from langchain.embeddings.base import Embeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 
 
