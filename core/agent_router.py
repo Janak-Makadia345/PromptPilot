@@ -32,8 +32,17 @@ class AgentRouter:
         if any(keyword in prompt_lower for keyword in ["note", "take note", "notes", "reminder"]):
             return self.agents_map.get("note_taker")
 
-        # Email keywords
-        if any(keyword in prompt_lower for keyword in ["email", "send mail", "gmail", "inbox"]):
+        email_keywords = [
+            "send email", "send mail", "email to", "send an email to",
+            "compose email", "compose mail", "email someone", "email",
+            "mail", "gmail", "inbox", "check inbox",
+            "read emails", "read latest email", "read latest emails",
+            "get emails", "emails from", "messages from",
+            "check gmail", "get gmail", "fetch email", "fetch gmail",
+            "email message", "email conversation", "mail from"
+        ]
+
+        if any(keyword in prompt_lower for keyword in email_keywords):
             return self.agents_map.get("email")
 
         self.calendar_keywords = {

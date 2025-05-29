@@ -20,7 +20,14 @@ from datetime import datetime, timedelta
 load_dotenv()
 
 class CalendarAgent:
-    SCOPES = ['https://www.googleapis.com/auth/calendar']
+    SCOPES = [
+        "https://www.googleapis.com/auth/gmail.modify",
+        "https://www.googleapis.com/auth/gmail.readonly",
+        "https://www.googleapis.com/auth/gmail.metadata",
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/calendar",
+        "openid"
+    ]
 
     def __init__(self, llm: ChatGoogleGenerativeAI, credentials_path=None, token_path="token.pickle"):
         self.llm = llm

@@ -744,3 +744,127 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-29 12:02:24,696 - faiss.loader - INFO - Loading faiss.
 2025-05-29 12:02:24,813 - faiss.loader - INFO - Successfully loaded faiss.
 2025-05-29 12:02:36,682 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 14:07:46,022 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:07:46,023 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:07:46,023 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:07:46,116 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:08:00,509 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 14:40:44,648 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:40:44,648 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:40:44,648 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:40:44,743 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:40:44,768 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 14:40:45,473 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-29 14:42:55,531 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:42:55,531 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:42:55,531 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:42:55,634 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:44:22,843 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:44:22,843 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:44:22,843 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:44:22,942 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:44:39,925 - google_auth_oauthlib.flow - INFO - "GET /?state=7xCVP4pQy6OecnCtGxkXfSxAxJ8CtZ&code=4/0AUJR-x7vdDO27MCwlnrRMJCroqVad5NEUCgeF5pKzT01r8EFy-fbihZ8OSod6HKGaWGa4Q&scope=email%20https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.metadata%20https://www.googleapis.com/auth/gmail.modify%20https://www.googleapis.com/auth/userinfo.email%20openid&authuser=0&prompt=consent HTTP/1.1" 200 65
+2025-05-29 14:45:01,533 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:45:01,534 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:45:01,534 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:45:01,628 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:45:02,303 - google_auth_oauthlib.flow - INFO - "GET /?state=SrajcXOScADm8CJ4n6CslC6LiNQCJ3&code=4%2F0AUJR-x6mjui_at2xVFKpYNz1x4eXsFk5The6uT3GjEXq5SosOb3_ydchAJX8JhAHG7re2w&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 14:46:15,709 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:46:15,709 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:46:15,709 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:46:15,809 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:46:16,541 - google_auth_oauthlib.flow - INFO - "GET /?state=kEhra7M1VliAil9icj0MwG4shQ8lCm&code=4%2F0AUJR-x51YtIHsI9lYTGXQdMVBBQM5F-k5Y3Hg2iZg6ddk0qld9Ry9rRoY9XUyK_9D6usqA&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 14:48:57,701 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:48:57,701 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:48:57,702 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:48:57,803 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:48:58,452 - google_auth_oauthlib.flow - INFO - "GET /?state=Pi40JSGm3ogPgSulff5zXjN5tRfGtk&code=4%2F0AUJR-x6wx6uiJ58iAo4eWfHGtYwNQJSq0QCTPX_V8k02oD9gLX_3tbyH5Qi51IuuhjBJug&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+openid&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 14:49:11,602 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:49:11,603 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:49:11,603 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:49:11,714 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:49:12,377 - google_auth_oauthlib.flow - INFO - "GET /?state=67DWvEe7BgFb0F8LNfb1MUt4iP9CpK&code=4%2F0AUJR-x5J0u1n3Q5r3m645svjYcS56OThQp-3HS3itXgZ8nHBMpkimaAynCPOF93dj4fGxw&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 14:53:23,371 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:53:23,371 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:53:23,371 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:53:23,460 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 14:57:09,427 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 14:57:09,429 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 14:57:09,429 - faiss.loader - INFO - Loading faiss.
+2025-05-29 14:57:09,518 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:00:21,957 - google_auth_oauthlib.flow - INFO - "GET /?state=mPugwXNITy9TrRCKdEyCklt8MKog2e&code=4%2F0AUJR-x59mRT0G72wRgJWGz12DFpu533sXIBNAPvFuYAnEx-cUVK_lnVt1jYafriMG0sNBg&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+openid&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 15:00:22,290 - core.orchestrator - ERROR - Processing failed: Scope has changed from "https://www.googleapis.com/auth/gmail.modify https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/gmail.metadata https://www.googleapis.com/auth/userinfo.email" to "openid https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gmail.modify https://www.googleapis.com/auth/gmail.metadata".
+2025-05-29 15:02:52,583 - google_auth_oauthlib.flow - INFO - "GET /?state=Vh2BHmRkEna4Y43lY7sqvljmHvxqwG&code=4%2F0AUJR-x71bHCDSLL8GRqiupqMLn_uUJtWWcnKo2--84a1XBRlXgqp4PS91S3pdY0UR980cA&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 15:02:52,858 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:02:54,667 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-29 15:03:29,097 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:03:29,098 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:03:29,098 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:03:29,189 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:04:03,082 - google_auth_oauthlib.flow - INFO - "GET /?state=UGFFQRHtcj1RzpYMLYbsdEVdlIPUkX&code=4%2F0AUJR-x4Sv9DkvOrUnRgNLHwYaq-YgpS4HY2dUm--0GDRiKI0MiQgmC-pKbr0DkMKmgYOjQ&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+openid&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 15:04:03,363 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:04:06,714 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "insufficientPermissions"
+2025-05-29 15:06:28,324 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:06:28,325 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:06:28,325 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:06:28,420 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:07:32,429 - google_auth_oauthlib.flow - INFO - "GET /?state=jZYJB71R1ShrTktOfuEZwBxbNVQhy4&code=4%2F0AUJR-x6YFUhEqnoiWefBY9cSU2AO839GZjiBoA7p2vEkb2ntWYc-03ud4UP0QyEc3XRYdg&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-29 15:07:32,725 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:08:21,752 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:08:22,374 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:08:22,734 - core.orchestrator - ERROR - Processing failed: <HttpError 400 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/send?alt=json returned "Invalid To header". Details: "[{'message': 'Invalid To header', 'domain': 'global', 'reason': 'invalidArgument'}]">
+2025-05-29 15:10:35,093 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:10:35,095 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:10:35,095 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:10:35,188 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:10:46,430 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:10:46,886 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:13:48,199 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:13:48,199 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:13:48,200 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:13:48,290 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:13:55,154 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:13:55,692 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:13:55,692 - core.orchestrator - ERROR - Processing failed: 'AIMessage' object has no attribute 'encode'
+2025-05-29 15:16:25,639 - core.orchestrator - ERROR - Processing failed: 'AIMessage' object has no attribute 'encode'
+2025-05-29 15:17:21,621 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:17:21,622 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:17:21,622 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:17:21,714 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:18:30,659 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:18:31,104 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:22:00,446 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:22:00,446 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:22:00,446 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:22:00,541 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:24:15,722 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:24:16,319 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:25:41,219 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:25:41,220 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:25:41,220 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:25:41,309 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:26:07,983 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 15:26:08,753 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-29 15:26:33,771 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 15:26:33,771 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 15:26:33,771 - faiss.loader - INFO - Loading faiss.
+2025-05-29 15:26:33,869 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 15:28:08,415 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
