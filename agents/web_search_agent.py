@@ -13,7 +13,6 @@ from serpapi import GoogleSearch
 class BaseAgent:
     pass
 
-
 class WebSearchAgent(BaseAgent):
     def __init__(
         self,

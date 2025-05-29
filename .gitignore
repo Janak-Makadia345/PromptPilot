@@ -13,3 +13,4 @@ __pycache__/
 # Specific Google credentials file
 core/*.json
 *.pickle
+token.pickle
