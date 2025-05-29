@@ -311,3 +311,436 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-28 11:02:33,947 - faiss.loader - INFO - Loading faiss.
 2025-05-28 11:02:33,966 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 11:09:32,892 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 11:09:32,893 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 11:09:32,893 - faiss.loader - INFO - Loading faiss.
+2025-05-28 11:09:32,908 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 11:58:57,537 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 11:58:57,537 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 11:58:57,538 - faiss.loader - INFO - Loading faiss.
+2025-05-28 11:58:57,562 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 12:03:51,075 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 12:03:51,075 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 12:03:51,076 - faiss.loader - INFO - Loading faiss.
+2025-05-28 12:03:51,098 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 12:07:29,358 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 12:07:29,358 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 12:07:29,359 - faiss.loader - INFO - Loading faiss.
+2025-05-28 12:07:29,383 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 12:08:43,382 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 12:08:43,382 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 12:08:43,382 - faiss.loader - INFO - Loading faiss.
+2025-05-28 12:08:43,415 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 14:30:48,130 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 14:30:48,131 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 14:30:48,131 - faiss.loader - INFO - Loading faiss.
+2025-05-28 14:30:48,396 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 14:31:50,999 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 14:31:50,999 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 14:31:50,999 - faiss.loader - INFO - Loading faiss.
+2025-05-28 14:31:51,013 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 14:38:54,934 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 14:38:54,934 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 14:38:54,934 - faiss.loader - INFO - Loading faiss.
+2025-05-28 14:38:54,951 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 14:39:14,889 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-28 14:54:53,029 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 14:54:53,030 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 14:54:53,030 - faiss.loader - INFO - Loading faiss.
+2025-05-28 14:54:53,044 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:07:47,298 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:07:47,298 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:07:47,298 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:07:47,312 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:09:30,392 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:09:30,393 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:09:30,393 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:09:30,407 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:15:55,068 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:15:55,069 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:15:55,069 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:15:55,082 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:21:33,615 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:21:33,616 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:21:33,616 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:21:33,631 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:24:45,094 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:24:45,096 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:24:45,096 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:24:45,108 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:25:20,982 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:25:20,983 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:25:20,983 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:25:20,997 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:35:29,256 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:35:29,257 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:35:29,257 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:35:29,557 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:37:38,586 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:37:38,586 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:37:38,586 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:37:38,870 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:37:56,582 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:37:56,583 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:37:56,583 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:37:56,597 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:38:39,255 - core.orchestrator - ERROR - Processing failed: [Errno 2] No such file or directory: 'credentials.json'
+2025-05-28 15:39:33,278 - core.orchestrator - ERROR - Processing failed: [Errno 2] No such file or directory: 'credentials.json'
+2025-05-28 15:39:41,252 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:39:41,253 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:39:41,253 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:39:41,270 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 15:39:55,475 - core.orchestrator - ERROR - Processing failed: [Errno 2] No such file or directory: 'client_secret.json'
+2025-05-28 15:42:48,787 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 15:42:48,787 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 15:42:48,787 - faiss.loader - INFO - Loading faiss.
+2025-05-28 15:42:48,801 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 20:57:37,810 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 20:57:37,811 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 20:57:37,811 - faiss.loader - INFO - Loading faiss.
+2025-05-28 20:57:37,828 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:00:07,188 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:00:07,189 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:00:07,189 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:00:07,203 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:05:01,075 - google_auth_oauthlib.flow - INFO - "GET /?state=iZSqDH8jFhWvkUkTX9kCEni95XXg9v&code=4/0AUJR-x4O_iBTLhGquhlv86jKAm5HHhkcvNNRw9McEs8qHcvQkIb5LIB8ZrrVtpT6-4S6zg&scope=https://www.googleapis.com/auth/calendar HTTP/1.1" 200 65
+2025-05-28 21:05:01,427 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-28 21:07:36,440 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:07:36,441 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:07:36,441 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:07:36,469 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:07:47,537 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-28 21:09:42,799 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:09:42,799 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:09:42,800 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:09:42,815 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:09:45,167 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-28 21:12:58,385 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:12:58,386 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:12:58,386 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:12:58,484 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:13:00,961 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-28 21:16:24,722 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:16:24,723 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:16:24,723 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:16:24,825 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:16:27,503 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-28 21:19:00,734 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:19:00,734 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:19:00,735 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:19:00,842 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:19:24,678 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-28 21:19:24,679 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-28 21:19:24,679 - faiss.loader - INFO - Loading faiss.
+2025-05-28 21:19:24,777 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-28 21:19:28,651 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:14:41,922 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:14:41,922 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:14:41,923 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:14:42,046 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:15:09,073 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:17:39,085 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-29 09:22:00,604 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:22:00,605 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:22:00,605 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:22:00,707 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:22:10,791 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-29 09:22:33,628 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-29 09:23:00,698 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-29 09:24:05,114 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:24:05,115 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:24:05,115 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:24:05,222 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:24:09,233 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:32:26,840 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:32:26,841 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:32:26,841 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:32:26,938 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:32:42,266 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:36:59,990 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:36:59,990 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:36:59,990 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:37:00,104 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:37:04,532 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:41:26,544 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:41:26,544 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:41:26,544 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:41:26,647 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:41:31,149 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:42:38,657 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:42:38,657 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:42:38,657 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:42:38,770 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:42:50,636 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:46:14,549 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:46:14,549 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:46:14,549 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:46:14,651 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:46:21,738 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:47:52,944 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:47:52,945 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:47:52,945 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:47:53,045 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:47:55,673 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:51:45,128 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:51:45,129 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:51:45,129 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:51:45,237 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:51:58,513 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:53:55,588 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:53:55,589 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:53:55,589 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:53:55,712 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:53:58,015 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:55:54,440 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:55:54,441 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:55:54,441 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:55:54,543 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:55:58,594 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 09:57:11,995 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 09:57:11,995 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 09:57:11,995 - faiss.loader - INFO - Loading faiss.
+2025-05-29 09:57:12,097 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 09:57:17,453 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:19:30,565 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:19:30,565 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:19:30,566 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:19:30,970 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:19:37,137 - core.orchestrator - ERROR - Processing failed: 'CalendarAgent' object has no attribute 'process'
+2025-05-29 10:21:49,091 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:21:49,092 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:21:49,092 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:21:49,200 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:22:38,240 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:24:43,315 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:24:43,316 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:24:43,316 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:24:43,416 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:24:50,078 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:27:34,536 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:27:34,536 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:27:34,536 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:27:34,639 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:27:51,384 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:32:21,548 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:32:21,549 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:32:21,549 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:32:21,670 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:32:31,948 - core.orchestrator - ERROR - Processing failed: CalendarAgent.process() takes 2 positional arguments but 3 were given
+2025-05-29 10:34:08,145 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:34:08,146 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:34:08,146 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:34:08,246 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:34:13,206 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:35:27,817 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:35:27,818 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:35:27,818 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:35:27,928 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:35:31,166 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:39:09,895 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:39:09,896 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:39:09,896 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:39:10,002 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:40:31,701 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:47:54,628 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:47:54,628 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:47:54,629 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:47:54,736 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:48:08,906 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:49:04,506 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:49:04,506 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:49:04,506 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:49:04,606 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:49:06,722 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:53:53,295 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:53:53,296 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:53:53,296 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:53:53,393 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:54:00,630 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:54:52,865 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:54:52,865 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:54:52,866 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:54:52,961 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:54:55,767 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:55:24,086 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:55:24,086 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:55:24,086 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:55:24,185 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:55:32,210 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:55:54,457 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:55:54,457 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:55:54,458 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:55:54,580 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:55:56,911 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 10:57:17,431 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 10:57:17,431 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 10:57:17,431 - faiss.loader - INFO - Loading faiss.
+2025-05-29 10:57:17,529 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 10:57:22,296 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:06:08,324 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:06:08,324 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:06:08,324 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:06:08,442 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:06:18,394 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:08:51,885 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:08:51,887 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:08:51,887 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:08:51,982 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:08:55,063 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:13:20,830 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:13:20,831 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:13:20,831 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:13:20,930 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:13:33,797 - core.orchestrator - ERROR - Processing failed: 'CalendarAgent' object has no attribute 'process'
+2025-05-29 11:13:43,670 - core.orchestrator - ERROR - Processing failed: 'CalendarAgent' object has no attribute 'process'
+2025-05-29 11:14:34,203 - core.orchestrator - ERROR - Processing failed: 'CalendarAgent' object has no attribute 'process'
+2025-05-29 11:14:59,776 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:14:59,777 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:14:59,777 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:14:59,876 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:15:02,998 - core.orchestrator - ERROR - Processing failed: 'CalendarAgent' object has no attribute 'process'
+2025-05-29 11:15:18,234 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:15:18,235 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:15:18,235 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:15:18,332 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:15:22,746 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:24:58,747 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:24:58,747 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:24:58,747 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:24:58,843 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:25:13,439 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:27:46,765 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:27:46,766 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:27:46,766 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:27:46,865 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:28:12,391 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:29:09,361 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:29:09,361 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:29:09,361 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:29:09,459 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:29:12,484 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:30:39,512 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:30:39,512 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:30:39,513 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:30:39,607 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:30:43,209 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:33:12,221 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:33:12,221 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:33:12,222 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:33:12,321 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:33:16,511 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:37:45,789 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:37:45,790 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:37:45,790 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:37:45,889 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:38:00,114 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:42:59,730 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:42:59,731 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:42:59,731 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:42:59,837 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:43:20,488 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:45:55,432 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:45:55,432 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:45:55,432 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:45:55,521 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:46:04,988 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:52:18,187 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:52:18,188 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:52:18,188 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:52:18,292 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:52:22,409 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:53:30,260 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:53:30,261 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:53:30,261 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:53:30,355 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:53:42,761 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 11:55:42,457 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 11:55:42,457 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 11:55:42,457 - faiss.loader - INFO - Loading faiss.
+2025-05-29 11:55:42,554 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 11:55:46,518 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-29 12:00:19,011 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 12:00:19,012 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 12:00:19,012 - faiss.loader - INFO - Loading faiss.
+2025-05-29 12:00:19,139 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 12:01:23,759 - core.orchestrator - ERROR - Processing failed: Error embedding content: Timeout of 60.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: UNAVAILABLE: getaddrinfo: WSA Error (No such host is known.
+ -- 11001)
+2025-05-29 12:02:24,695 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-29 12:02:24,696 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-29 12:02:24,696 - faiss.loader - INFO - Loading faiss.
+2025-05-29 12:02:24,813 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-29 12:02:36,682 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0

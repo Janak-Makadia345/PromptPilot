@@ -36,9 +36,42 @@ class AgentRouter:
         if any(keyword in prompt_lower for keyword in ["email", "send mail", "gmail", "inbox"]):
             return self.agents_map.get("email")
 
-        # Calendar keywords
-        if any(keyword in prompt_lower for keyword in ["calendar", "schedule", "meeting", "appointment", "event"]):
+        self.calendar_keywords = {
+            # Core calendar terms
+            "calendar", "schedule", "scheduling", "meeting", "appointment", "event", "reminder",
+
+            # Real-life phrases for creation
+            "set", "add", "make", "mark", "create", "log", "note down", "add to calendar", 
+            "remind me", "remind", "block time", "save the date",
+
+            # Specific common usage phrases
+            "my mom's birthday", "dad's birthday", "anniversary", "friend's birthday",
+            "bday", "birthday", "exam on", "test on", "interview on", "presentation on",
+            "submit on", "due on", "last date", "deadline", "function on", "holiday on",
+            "leave on", "trip to", "flight on", "train on", "doctor appointment",
+            "dentist appointment", "call with", "zoom with", "teams call", "google meet",
+
+            # Time and scheduling cues
+            "on", "at", "from", "to", "between", "next", "tomorrow", "today", "tonight",
+            "upcoming", "early morning", "evening", "afternoon", "noon", "midnight",
+
+            # Update & Delete
+            "reschedule", "postpone", "change", "move", "update event", "cancel", "delete event",
+
+            # View & Read
+            "what's on", "what's planned", "what's my schedule", "show calendar", "next event",
+            "list my meetings", "my agenda", "show my plan", "event list", "my plans",
+
+            # Fuzzy/natural variants
+            "plan for", "meeting with", "event with", "add note", "reminder for", 
+            "set reminder", "schedule with", "add appointment", "fix time",
+
+            # Holidays/celebrations
+            "diwali", "eid", "christmas", "new year", "raksha bandhan", "holi", "navratri"
+        }
+        if any(keyword in prompt_lower for keyword in self.calendar_keywords):
             return self.agents_map.get("calendar")
+
 
         # Web Search keywords (expanded from your template)
         web_search_keywords = [

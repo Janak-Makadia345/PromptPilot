@@ -12,6 +12,9 @@ from memory.faiss_store import setup_vectorstore
 from agents.note_taker_agent import NoteTakerAgent
 from agents.web_search_agent import WebSearchAgent
 
+from agents.calendar_agent import CalendarAgent
+from core.prompt_templates.calendar_template import calendar_prompt
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.memory import VectorStoreRetrieverMemory
 from core.prompt_templates.note_taker_template import note_taker_prompt
@@ -32,7 +35,7 @@ class Orchestrator:
             llm = ChatGoogleGenerativeAI(
                 model="gemini-2.0-flash",
                 temperature=0.5,
-                convert_system_message_to_human=True,
+                convert_system_message_to_human=True
             )
         except TypeError as e:
             import traceback
@@ -64,6 +67,12 @@ class Orchestrator:
         )
         self.router.register_agent("web_search", web_search_agent)
 
+        calendar_agent = CalendarAgent(
+            llm=llm,
+        )
+        self.router.register_agent("calendar", calendar_agent)
+
+        
     def process_prompt(self, prompt: str) -> Dict[str, Any]:
         """Process user prompt and return response."""
         start_time = time.time()
