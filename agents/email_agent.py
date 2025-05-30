@@ -74,7 +74,7 @@ class EmailAgent:
         return f"Email sent to {to}. ID: {sent['id']}"
 
     def extract_email_and_subject(self, prompt: str):
-        pattern = r"(?:send an email to|send email to)\s+([^\s]+)\s+.*regarding\s+(.+)"
+        pattern = r"(?:send (?:an )?email|send mail)\s+to\s+([^\s]+)\s+.*regarding\s+(.+)"
         match = re.search(pattern, prompt, re.I)
         if match:
             to = match.group(1).strip()
@@ -82,6 +82,7 @@ class EmailAgent:
             return to, subject
         else:
             return None, None
+
 
     def process(self, prompt: str, context: dict) -> str:
         to, subject = self.extract_email_and_subject(prompt)

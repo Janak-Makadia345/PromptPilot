@@ -1,3 +1,5 @@
+import re
+
 class AgentRouter:
     """
     AgentRouter routes the user's prompt to the appropriate agent
@@ -19,6 +21,22 @@ class AgentRouter:
         """
         self.agents_map[key] = agent
 
+    def matches_code_intent(self, text: str):
+        text_lower = text.lower()
+        if "debug" in text_lower and "code" in text_lower:
+            return True
+
+        patterns = [
+            r"\b(write|generate|create|make)\s+(a\s+)?(python|c\+\+|java|js|javascript|html)?\s*code",
+            r"\b(debug|fix)\b.*?\bcode\b",  # updated regex here
+            r"\bwhat\s+does\s+(this\s+)?code\s+do",
+            r"\bexplain\s+(this\s+)?code",
+            r"\b(program|function)\s+(to|in)\b",
+            r"\b(code|script)\s+(for|in|to)\b",
+        ]
+        return any(re.search(p, text.lower()) for p in patterns)
+
+
     def route(self, prompt: str):
         """
         Determine the appropriate agent for a prompt.
@@ -28,10 +46,11 @@ class AgentRouter:
         """
         prompt_lower = prompt.lower()
 
-        # Note Taker keywords
+        # Note Taker
         if any(keyword in prompt_lower for keyword in ["note", "take note", "notes", "reminder"]):
             return self.agents_map.get("note_taker")
 
+        # Email
         email_keywords = [
             "send email", "send mail", "email to", "send an email to",
             "compose email", "compose mail", "email someone", "email",
@@ -41,48 +60,36 @@ class AgentRouter:
             "check gmail", "get gmail", "fetch email", "fetch gmail",
             "email message", "email conversation", "mail from"
         ]
-
         if any(keyword in prompt_lower for keyword in email_keywords):
             return self.agents_map.get("email")
 
-        self.calendar_keywords = {
-            # Core calendar terms
-            "calendar", "schedule", "scheduling", "meeting", "appointment", "event", "reminder",
+        # ✅ Code intent (placed early to avoid calendar false matches)
+        if self.matches_code_intent(prompt):
+            return self.agents_map.get("code")
 
-            # Real-life phrases for creation
+        # Calendar
+        calendar_keywords = {
+            "calendar", "schedule", "scheduling", "meeting", "appointment", "event", "reminder",
             "set", "add", "make", "mark", "create", "log", "note down", "add to calendar", 
             "remind me", "remind", "block time", "save the date",
-
-            # Specific common usage phrases
             "my mom's birthday", "dad's birthday", "anniversary", "friend's birthday",
             "bday", "birthday", "exam on", "test on", "interview on", "presentation on",
             "submit on", "due on", "last date", "deadline", "function on", "holiday on",
             "leave on", "trip to", "flight on", "train on", "doctor appointment",
             "dentist appointment", "call with", "zoom with", "teams call", "google meet",
-
-            # Time and scheduling cues
             "on", "at", "from", "to", "between", "next", "tomorrow", "today", "tonight",
             "upcoming", "early morning", "evening", "afternoon", "noon", "midnight",
-
-            # Update & Delete
             "reschedule", "postpone", "change", "move", "update event", "cancel", "delete event",
-
-            # View & Read
             "what's on", "what's planned", "what's my schedule", "show calendar", "next event",
             "list my meetings", "my agenda", "show my plan", "event list", "my plans",
-
-            # Fuzzy/natural variants
             "plan for", "meeting with", "event with", "add note", "reminder for", 
             "set reminder", "schedule with", "add appointment", "fix time",
-
-            # Holidays/celebrations
             "diwali", "eid", "christmas", "new year", "raksha bandhan", "holi", "navratri"
         }
-        if any(keyword in prompt_lower for keyword in self.calendar_keywords):
+        if any(keyword in prompt_lower for keyword in calendar_keywords):
             return self.agents_map.get("calendar")
 
-
-        # Web Search keywords (expanded from your template)
+        # Web Search
         web_search_keywords = [
             "search for", "look up", "find", "find images of", "show pictures of", 
             "find news about", "what's happening with", "find research papers about", 
@@ -95,13 +102,9 @@ class AgentRouter:
         if any(keyword in prompt_lower for keyword in web_search_keywords):
             return self.agents_map.get("web_search")
 
-        # Code keywords
-        if any(keyword in prompt_lower for keyword in ["code", "program", "script", "debug", "compile"]):
-            return self.agents_map.get("code")
-
-        # File analyzer keywords
+        # File Analyzer
         if any(keyword in prompt_lower for keyword in ["file", "analyze", "document", "pdf", "text"]):
             return self.agents_map.get("file_analyzer")
 
-        # Fallback to a default agent if registered
+        # Fallback
         return self.agents_map.get("default", None)

@@ -868,3 +868,85 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-29 15:26:33,771 - faiss.loader - INFO - Loading faiss.
 2025-05-29 15:26:33,869 - faiss.loader - INFO - Successfully loaded faiss.
 2025-05-29 15:28:08,415 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 09:30:36,718 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:30:36,718 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:30:36,718 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:30:36,874 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:31:05,319 - google_auth_oauthlib.flow - INFO - "GET /?state=inBa0F7ltBIRyo1m2AljvZo0jvC9yG&code=4%2F0AUJR-x4trlC4gUHdlCO2NiGCSIrbGJUbmAJLFTLubWWc9KBn4T9TWE81MJnwww_gj_GB8g&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-30 09:31:06,390 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 09:35:04,022 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:35:04,023 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:35:04,023 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:35:04,126 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:35:19,366 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 09:36:54,853 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:36:54,854 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:36:54,854 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:36:54,957 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:37:54,528 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:02,345 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:03,377 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:04,193 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:05,329 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:06,058 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:07,268 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:38:07,864 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:40:19,752 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:40:19,753 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:40:19,753 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:40:19,869 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:40:30,139 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:20,088 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:29,408 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:41,086 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:42,309 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:42,825 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:44,057 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:44,669 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:45,894 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:46,509 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:47,641 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:41:48,245 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:42:02,907 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:42:02,908 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:42:02,908 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:42:03,013 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:42:04,500 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:42:05,709 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:42:12,525 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:43:32,708 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:43:39,359 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 09:45:07,198 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:45:07,199 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:45:07,199 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:45:07,306 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:46:33,129 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 09:56:43,646 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:56:43,647 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:56:43,647 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:56:43,742 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 09:59:52,222 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 09:59:52,223 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 09:59:52,223 - faiss.loader - INFO - Loading faiss.
+2025-05-30 09:59:52,320 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:00:28,332 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 10:00:29,372 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com
+2025-05-30 10:22:33,690 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:22:33,692 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:22:33,692 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:22:33,787 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:34:16,602 - core.orchestrator - ERROR - Processing failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-05-30 10:34:59,207 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:34:59,207 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:34:59,207 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:34:59,700 - faiss.loader - INFO - Successfully loaded faiss.

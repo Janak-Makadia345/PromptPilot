@@ -12,6 +12,7 @@ from memory.faiss_store import setup_vectorstore
 from agents.note_taker_agent import NoteTakerAgent
 from agents.web_search_agent import WebSearchAgent
 from agents.email_agent import EmailAgent
+from agents.code_agent import CodeAgent
 
 from agents.calendar_agent import CalendarAgent
 from core.prompt_templates.calendar_template import calendar_prompt
@@ -75,6 +76,9 @@ class Orchestrator:
 
         email_agent = EmailAgent(llm=llm)
         self.router.register_agent("email", email_agent)
+
+        code_agent = CodeAgent(llm=llm)
+        self.router.register_agent("code", code_agent)
 
         
     def process_prompt(self, prompt: str) -> Dict[str, Any]:
