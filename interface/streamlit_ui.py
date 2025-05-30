@@ -1,6 +1,13 @@
 import streamlit as st
 from datetime import datetime
 import traceback
+import base64
+
+# Helper function to convert image to base64
+def get_base64_image(image_path):
+    with open(image_path, "rb") as image_file:
+        encoded = base64.b64encode(image_file.read()).decode()
+    return f"data:image/png;base64,{encoded}"
 
 class StreamlitUI:
     def __init__(self, orchestrator):
@@ -9,15 +16,28 @@ class StreamlitUI:
             st.session_state.history = []
 
     def run(self):
+        # Load and embed logo image
+        logo_data = get_base64_image("interface/assets/prompt_pilot.png")
+
         st.set_page_config(
             page_title="PromptPilot - Personal AI Assistant",
-            page_icon="🤖",
+            page_icon=logo_data,
             layout="centered",
             initial_sidebar_state="expanded"
         )
 
-        st.title("🚀 PromptPilot: Your Personal AI Assistant")
+        # Display logo and title inline
+        st.markdown(
+            f"""
+            <div style='display: flex; align-items: center; gap: 30px;'>
+                <img src='{logo_data}' alt='PromptPilot Logo' width='80' height='80'>
+                <h1 style='margin: 0;'>PromptPilot: Your Personal AI Assistant 🚀</h1>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
+        # Sidebar settings
         with st.sidebar:
             st.header("Settings")
             selected_agent = st.selectbox(
@@ -32,8 +52,10 @@ class StreamlitUI:
             st.markdown("---")
             st.markdown("Made with 💡 by Janak Makadia")
 
+        # Prompt input
         prompt = st.text_area("Enter your prompt here:", height=120)
 
+        # On submit
         if st.button("Submit") and prompt.strip():
             with st.spinner("Processing your request..."):
                 try:
@@ -70,6 +92,7 @@ class StreamlitUI:
         else:
             st.info("Please enter a prompt above and press Submit to get started.")
 
+        # Show history
         if st.checkbox("Show conversation history"):
             st.markdown("## 📝 Conversation History")
             if not st.session_state.history:
