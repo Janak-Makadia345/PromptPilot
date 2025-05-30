@@ -50,12 +50,12 @@ class CalendarAgent:
                 self.creds.refresh(Request())
             else:
                 flow = InstalledAppFlow.from_client_secrets_file(self.credentials_path, self.SCOPES)
-                self.creds = flow.run_local_server(port=8080)
+                self.creds = flow.run_local_server(port=8888)
 
             with open(self.token_path, "wb") as token_file:
                 pickle.dump(self.creds, token_file)
 
-        self.service = build("calendar", "v3", credentials=self.creds)
+        self.service = build("calendar", "v3", credentials=self.creds, cache_discovery=False)
         self.authenticated = True
 
     def extract_event_details(self, text: str) -> Optional[dict]:

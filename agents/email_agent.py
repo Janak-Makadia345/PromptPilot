@@ -17,6 +17,7 @@ class EmailAgent:
         "https://www.googleapis.com/auth/gmail.readonly",
         "https://www.googleapis.com/auth/userinfo.email",
         "https://www.googleapis.com/auth/gmail.metadata",
+        "https://www.googleapis.com/auth/calendar",
         "openid"
     ]
 
@@ -40,7 +41,7 @@ class EmailAgent:
                     flow = InstalledAppFlow.from_client_secrets_file(
                         "core/client_secret.json", self.SCOPES
                     )
-                    creds = flow.run_local_server(port=8080)
+                    creds = flow.run_local_server(port=8888)
                 with open("token.pickle", "wb") as token:
                     pickle.dump(creds, token)
 
