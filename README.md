@@ -1,4 +1,4 @@
-# 🚀 PromptPilot: Your Personal AI Operating System 🧠🛸  
+# 🚀 PromptPilot: Your Personal AI Assistant 🧠🛸  
 Built with ❤️ using **Python**, **LangChain**, **Gemini 2.0**, **FAISS**, and Modular AI Agents
 
 🔗 [Check out the repo!](https://github.com/Janak-Makadia345/PromptPilot.git)
