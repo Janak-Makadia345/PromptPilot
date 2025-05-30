@@ -68,10 +68,6 @@ class StreamlitUI:
                     st.text(traceback.format_exc())
                     return
 
-                # Debug: show raw result object
-                st.write("### Debug: Raw result from orchestrator")
-                st.json(result)
-
                 response_text = result.get('response', 'No response.')
                 agent_used = result.get('agent', 'Unknown')
                 processing_time = result.get('processing_time', None)

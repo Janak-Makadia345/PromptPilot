@@ -46,5 +46,17 @@
     "date": "2025-05-30",
     "tags": "#meeting",
     "content": "Scheduled meeting for tomorrow at 3pm."
+  },
+  {
+    "title": "Marriage Event",
+    "date": "2025-05-30",
+    "tags": "#event #marriage",
+    "content": "Reminder to attend a marriage event tomorrow at 3pm."
+  },
+  {
+    "title": "Marriage Event",
+    "date": "2025-05-30",
+    "tags": "#event #marriage",
+    "content": "I have a marriage event to attend tomorrow at 3pm."
   }
 ]

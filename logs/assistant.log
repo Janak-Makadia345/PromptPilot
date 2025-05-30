@@ -1395,3 +1395,16 @@ NameError: name 'get_base64_image' is not defined
 ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-30 14:20:12,946 - faiss.loader - INFO - Loading faiss.
 2025-05-30 14:20:12,978 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 14:25:29,916 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 14:25:29,917 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 14:25:29,917 - faiss.loader - INFO - Loading faiss.
+2025-05-30 14:25:29,952 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 14:26:42,433 - google_auth_oauthlib.flow - INFO - "GET /?state=ZmgKMf38mQsqPpI0bHev1SylbHqA1V&code=4%2F0AUJR-x52PzjlTI4KOCrbd_ud3YSjfQQSLa4lB0mWh6IhG1slLzu6Ba_FaPELo2HIrUgxlQ&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.modify+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.metadata+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1" 200 65
+2025-05-30 14:28:43,366 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 14:28:43,367 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 14:28:43,367 - faiss.loader - INFO - Loading faiss.
+2025-05-30 14:28:43,398 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 14:34:44,143 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-30 14:34:44,883 - agents.email_agent - INFO - Signed in as: makadiask901@gmail.com

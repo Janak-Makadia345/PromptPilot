@@ -67,6 +67,23 @@ class AgentRouter:
         if self.matches_code_intent(prompt):
             return self.agents_map.get("code")
 
+        # Web Search
+        web_search_keywords = [
+            "search for", "look up", "find", "find images of", "show pictures of", 
+            "find news about", "what's happening with", "find research papers about", 
+            "look for scholarly articles on", "search for", "find best price for", 
+            "find", "near me", "what's nearby", "restaurants in", "how to", "guide to",
+            "who is", "biography of", "define", "what does", "compare", "difference between",
+            "reviews of", "what people say about", "weather in", "events in", "time in",
+            "news", "information", "trending", "web", "google"
+        ]
+        if any(keyword in prompt_lower for keyword in web_search_keywords):
+            return self.agents_map.get("web_search")
+
+        # File Analyzer
+        if any(keyword in prompt_lower for keyword in ["file", "analyze", "document", "pdf", "text"]):
+            return self.agents_map.get("file_analyzer")
+        
         # Calendar
         calendar_keywords = {
             "calendar", "schedule", "scheduling", "meeting", "appointment", "event", "reminder",
@@ -88,23 +105,6 @@ class AgentRouter:
         }
         if any(keyword in prompt_lower for keyword in calendar_keywords):
             return self.agents_map.get("calendar")
-
-        # Web Search
-        web_search_keywords = [
-            "search for", "look up", "find", "find images of", "show pictures of", 
-            "find news about", "what's happening with", "find research papers about", 
-            "look for scholarly articles on", "search for", "find best price for", 
-            "find", "near me", "what's nearby", "restaurants in", "how to", "guide to",
-            "who is", "biography of", "define", "what does", "compare", "difference between",
-            "reviews of", "what people say about", "weather in", "events in", "time in",
-            "news", "information", "trending", "web", "google"
-        ]
-        if any(keyword in prompt_lower for keyword in web_search_keywords):
-            return self.agents_map.get("web_search")
-
-        # File Analyzer
-        if any(keyword in prompt_lower for keyword in ["file", "analyze", "document", "pdf", "text"]):
-            return self.agents_map.get("file_analyzer")
 
         # Fallback
         return self.agents_map.get("default", None)
