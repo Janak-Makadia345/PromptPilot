@@ -13,6 +13,7 @@ from agents.note_taker_agent import NoteTakerAgent
 from agents.web_search_agent import WebSearchAgent
 from agents.email_agent import EmailAgent
 from agents.code_agent import CodeAgent
+from agents.file_analyzer_agent import FileAnalyzerAgent
 
 from agents.calendar_agent import CalendarAgent
 from core.prompt_templates.calendar_template import calendar_prompt
@@ -79,6 +80,9 @@ class Orchestrator:
 
         code_agent = CodeAgent(llm=llm)
         self.router.register_agent("code", code_agent)
+
+        file_analyzer_agent = FileAnalyzerAgent(llm=llm)
+        self.router.register_agent("file_analyzer", file_analyzer_agent)
 
         
     def process_prompt(self, prompt: str) -> Dict[str, Any]:

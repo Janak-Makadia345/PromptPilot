@@ -950,3 +950,43 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-05-30 10:34:59,207 - faiss.loader - INFO - Loading faiss.
 2025-05-30 10:34:59,700 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:50:33,773 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:50:33,773 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:50:33,773 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:50:33,873 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:50:39,664 - core.orchestrator - ERROR - Processing failed: No suitable agent found for this prompt.
+2025-05-30 10:54:17,180 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:54:17,180 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:54:17,180 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:54:17,278 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:58:18,130 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:58:18,130 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:58:18,130 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:58:18,227 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 10:58:32,201 - agents.file_analyzer_agent - ERROR - Error reading file C:\Users\Janak Makadia\Downloads\Janak_Makadia_FS (1).pdf: 'utf-8' codec can't decode byte 0xbf in position 10: invalid start byte
+2025-05-30 10:59:51,112 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 10:59:51,112 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 10:59:51,113 - faiss.loader - INFO - Loading faiss.
+2025-05-30 10:59:51,218 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 11:01:31,596 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 11:01:31,596 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 11:01:31,597 - faiss.loader - INFO - Loading faiss.
+2025-05-30 11:01:31,698 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 11:07:08,847 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 11:07:08,847 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 11:07:08,848 - faiss.loader - INFO - Loading faiss.
+2025-05-30 11:07:08,945 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 11:07:48,088 - core.orchestrator - ERROR - Processing failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-05-30 11:08:02,865 - core.orchestrator - ERROR - Processing failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-05-30 11:10:09,869 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-05-30 11:10:09,869 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-30 11:10:09,870 - faiss.loader - INFO - Loading faiss.
+2025-05-30 11:10:09,970 - faiss.loader - INFO - Successfully loaded faiss.
+2025-05-30 11:10:47,802 - core.orchestrator - ERROR - Processing failed: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
