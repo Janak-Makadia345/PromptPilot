@@ -90,5 +90,4 @@ class WebSearchAgent(BaseAgent):
             link = res.get("link", res.get("url", "No link available."))
             formatted_results += f"{idx}. **{title}**\n{snippet}\n🔗 {link}\n\n"
 
-        # Final response string
         return f"{search_strategy}\n\n---\n🔍 Top Search Results:\n{formatted_results.strip()}"
